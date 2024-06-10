@@ -77,7 +77,7 @@ You'll see an empty file named `alphafold2.3.2-submit.sh`. To edit the file, pre
 ```
 #!/bin/bash
 #SBATCH --job-name=alphafold2
-#SBATCH --account=pi-haddadian
+#SBATCH --account=workshop-aiml
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --time=10:00:00
