@@ -194,7 +194,7 @@ When AlphaFold finishes running, you can find the outputs in a directory named \
 You can check the outputs by `cd`ing into that directory and then typing `ls`. (Anytime you want to check the files contained in a directory, you can `cd` into that directory and use the command `ls`).
 
 The output files you want end in `.pdb` format, AlphaFold ranks the structures based on confidence. The one with the best confidence is named `ranked_0.pdb`.
-You can load those .pdb files in VMD to visualize their 3D structures.  111
+You can load those .pdb files in VMD to visualize their 3D structures.
 
 ## AlphaFold Parameters
 There are several parameters you have to provide and/or can modify when running an AlphaFold simulation. They are discussed in details below.
