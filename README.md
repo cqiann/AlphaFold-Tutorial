@@ -225,7 +225,7 @@ To run your jobs with precomputed MSAs, you need to make sure the `msa/` directo
 
 ```
 mkdir <name of your fasta file>
-cp /scratch/midway3/christineqian/Haddadian-Lab-Docs/alphafold-scripts/Abeta/42r.<number of chains in the Abeta that you are running>c/msas ./<name of your fasta file>
+cp -r /scratch/midway3/christineqian/Haddadian-Lab-Docs/alphafold-scripts/Abeta/42r.<number of chains in the Abeta that you are running>c/msas ./<name of your fasta file>
 sbatch alphafold2.3.2-submit.sh -f <name of your fasta file>.fasta -o <name of your fasta file>
 ```
 
