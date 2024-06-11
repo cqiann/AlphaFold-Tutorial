@@ -233,7 +233,7 @@ For example, if you want to run a 42-residue trimer, and you made a fasta file `
 
 ```
 mkdir 42r-trimer
-cp /scratch/midway3/christineqian/Haddadian-Lab-Docs/alphafold-scripts/Abeta/42r.3c/msas ./42r-trimer
+cp -r /scratch/midway3/christineqian/Haddadian-Lab-Docs/alphafold-scripts/Abeta/42r.3c/msas ./42r-trimer
 sbatch alphafold2.3.2-submit.sh -f 42r-trimer.fasta -o 42r-trimer
 ```
 
