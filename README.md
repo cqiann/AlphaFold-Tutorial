@@ -8,17 +8,11 @@ You can run AlphaFold in Midway3 or online using the AlphaFold Server. We'll be 
 
 But feel free to explore the AlphaFold server on your own time if you're curious: https://alphafoldserver.com/welcome
 
-To run an AlphaFold simulation, you need to first connect to one of the shared RCC clusters through SSH. There are multiple shared clusters:
-| Host name   | SSH host address               
-| ----------- | -------------------------------
-| Midway2     | `midway2.rcc.uchicago.edu`
-| Midway3     | `midway3.rcc.uchicago.edu`
-| Midway3-AMD | `midway3-amd.rcc.uchicago.edu`
-| DaLI        | `dali-login.rcc.uchicago.edu`
+To run an AlphaFold simulation, you need to first connect to RCC's Midway3 through SSH. 
 
-Open a Terminal window ("Terminal" app for Mac and "PowerShell for Windows) and enter the command (ignore the <> when you type):
+Open a Terminal window ("Terminal" app for Mac and "PowerShell for Windows) and enter the command:
 
-`ssh <your RCC username>@<host username>`
+`ssh <your RCC username>@midway3.rcc.uchicago.edu`
 
 Your `RCC username` should just be your `CNETID` and you can use can one of the RCC cluster host addresses as the `host username`. I recommend using `Midway2` or `Midway3`.
 
