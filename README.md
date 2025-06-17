@@ -4,7 +4,7 @@ Proteins are macromolecules comprised of one or more chains of amino acids. They
 AlphaFold is an AI system developed by Google DeepMind that predicts a protein's 3D structure from its amino acid sequence.
 
 # Running AlphaFold Simulations
-You can run AlphaFold in Midway3 or online using the AlphaFold Server. Today, we'll be running it in Midway3 because it gives you more control over inputs and parameters. But feel free to explore the AlphaFold server on your own time if you're curious: https://alphafoldserver.com/welcome
+You can run AlphaFold in Midway3 or online using the AlphaFold Server. We'll be running it in Midway3 today because it gives you more control over inputs and parameters. But feel free to explore the AlphaFold server on your own time if you're curious: https://alphafoldserver.com/welcome
 
 To run an AlphaFold simulation, you need to first connect to one of the shared RCC clusters through SSH. There are multiple shared clusters:
 | Host name   | SSH host address               
