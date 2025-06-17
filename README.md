@@ -10,13 +10,13 @@ But feel free to explore the AlphaFold server on your own time if you're curious
 
 To run an AlphaFold simulation, you need to first connect to RCC's Midway3 through SSH. 
 
-Open a Terminal window ("Terminal" app for Mac and "PowerShell for Windows) and enter the command:
+Open a Terminal window ("Terminal" app for Mac and "PowerShell for Windows), type in the command and press `enter`:
 
-`ssh <your RCC username>@midway3.rcc.uchicago.edu`
+`ssh <INSERT YOUR RCC USERNAME>@midway3.rcc.uchicago.edu`
 
-Your `RCC username` should just be your `CNETID` and you can use can one of the RCC cluster host addresses as the `host username`. I recommend using `Midway2` or `Midway3`.
+Your `RCC username` is typically just your `CNETID`.
 
-For example, if I were to SSH into Midway3, I type in `ssh christineqian@midway3.rcc.uchicago.edu` and press `enter` on Windows or `return` on Apple keyboards. Press `enter` or `return` after each command you type into the terminal window.
+Here's an example: `ssh christineqian@midway3.rcc.uchicago.edu`
 
 If this is your first time signing into an RCC cluster, SSH will ask you `Are you sure you want to continue connecting?`. Type `yes` and then press `enter` or `return` on your keyboard to proceed.
 
