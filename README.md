@@ -8,7 +8,7 @@ You can run AlphaFold in Midway3 or online using the AlphaFold Server. We'll be 
 
 If Midway3 is too busy, we can run it on the AlphaFold server: https://alphafoldserver.com/welcome
 
-Today, we'll be predicting the structure of a hemoglobin. The sequence for hemoglobin is:
+Today, we'll be predicting the structure of a human hemoglobin. The sequence for hemoglobin is:
 ```
 >7VDE_2|Chains B|Hemoglobin subunit beta|Homo sapiens (9606)
 MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
@@ -21,11 +21,16 @@ MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNA
 ```
 Hemoglobin consists of four chains: two identical α chains (labeled A and C here) and two identical β chains (labeled B and D).
 
-To predict the structure of hemoglobin, go to the alphafold server. Paste the sequence of the chains individually into the entity:
+## Running AlphaFold Simulations on AlphaFold Server
+To predict the structure of hemoglobin, go to the alphafold server. Paste the sequence of the chains individually into the entity. It should look like:
 
 <img width="1311" alt="Screenshot 2025-06-18 at 13 17 23" src="https://github.com/user-attachments/assets/619d9282-63d0-4f2f-8969-297f84212b91" />
 
+After you finish pasting the sequences, click on `Continue and preview job` and just let it run. It should be done within ~5 minutes. After it's done, you can click on the job and look at the structure. 
 
+Also feel free to compare it to the actual structure of the human hemoglobin resolved experimentally: https://www.rcsb.org/structure/7VDE
+
+## Running AlphaFold Simulations on Midway3
 To run an AlphaFold simulation, you need to first connect to RCC's Midway3 through SSH. 
 
 Open a Terminal window ("Terminal" app for Mac and "PowerShell for Windows), type in the command and press `enter`:
