@@ -78,13 +78,11 @@ You'll see an empty file named `alphafold2.3.2-submit.sh`. To edit the file, pre
 #!/bin/bash
 #SBATCH --job-name=alphafold2
 #SBATCH --account=workshop-aiml
-#SBATCH --partition=gpu
-#SBATCH --nodes=1
+#SBATCH --partition=caslake
+#SBATCH --nodes=4
 #SBATCH --time=10:00:00
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --gres=gpu:2
-#SBATCH --mem=64G
+#SBATCH --ntasks-per-node=48
+#SBATCH --mem=16G
 
 module load alphafold/2.3.2 cuda/11.3
 
