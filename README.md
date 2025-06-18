@@ -4,7 +4,7 @@ Proteins are macromolecules comprised of one or more chains of amino acids. They
 AlphaFold is an AI system developed by Google DeepMind that predicts a protein's 3D structure from its amino acid sequence.
 
 # Running AlphaFold Simulations
-You can run AlphaFold in Midway3 or online using the AlphaFold Server. Running it in Midway3 would gives you more control over inputs and parameters. However, if Midway3 is too busy, we can run it on the AlphaFold server as well: https://alphafoldserver.com/welcome
+You can run AlphaFold in Midway3 or online using the AlphaFold Server. Running it in Midway3 would gives you more control over inputs and parameters. However, if Midway3 is too busy, we can run it on the [AlphaFold server](https://alphafoldserver.com/welcome) as well.
 
 Today, we'll be predicting the structure of a human hemoglobin. The sequence for hemoglobin is:
 ```
@@ -26,7 +26,7 @@ To predict the structure of hemoglobin, go to the [alphafold server](https://alp
 
 After you finish pasting the sequences, click on `Continue and preview job` and just let it run. It should be done within ~5 minutes. After it's done, you can click on the job and look at the structure. 
 
-Also feel free to compare it to the actual structure of the human hemoglobin resolved experimentally: https://www.rcsb.org/structure/7VDE
+Also feel free to compare it to the [actual structure of the human hemoglobin resolved experimentally](https://www.rcsb.org/structure/7VDE)
 
 ## Running AlphaFold Simulations on Midway3
 To run an AlphaFold simulation, you need to first connect to RCC's Midway3 through SSH. 
