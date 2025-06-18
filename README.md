@@ -19,7 +19,7 @@ MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNA
 >7VDE_1|Chains C|Hemoglobin subunit alpha|Homo sapiens (9606)
 MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
 ```
-Hemoglobin consists of four chains: two identical α chains (labeled A and C here) and two identical β chains (labeled B and D).
+As you can see from the sequences, hemoglobin consists of four chains: two identical α chains (labeled A and C here) and two identical β chains (labeled B and D).
 
 ## Running AlphaFold Simulations on AlphaFold Server
 To predict the structure of hemoglobin, go to the alphafold server. Paste the sequence of the chains individually into the entity. It should look like:
