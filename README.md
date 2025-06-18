@@ -6,7 +6,25 @@ AlphaFold is an AI system developed by Google DeepMind that predicts a protein's
 # Running AlphaFold Simulations
 You can run AlphaFold in Midway3 or online using the AlphaFold Server. We'll be running it in Midway3 today because it gives you more control over inputs and parameters. 
 
-But feel free to explore the AlphaFold server on your own time if you're curious: https://alphafoldserver.com/welcome
+If Midway3 is too busy, we can run it on the AlphaFold server: https://alphafoldserver.com/welcome
+
+Today, we'll be predicting the structure of a hemoglobin. The sequence for hemoglobin is:
+```
+>7VDE_2|Chains B|Hemoglobin subunit beta|Homo sapiens (9606)
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+>7VDE_2|Chains D|Hemoglobin subunit beta|Homo sapiens (9606)
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+>7VDE_1|Chains A|Hemoglobin subunit alpha|Homo sapiens (9606)
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+>7VDE_1|Chains C|Hemoglobin subunit alpha|Homo sapiens (9606)
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+```
+Hemoglobin consists of four chains: two identical α chains (labeled A and C here) and two identical β chains (labeled B and D).
+
+To predict the structure of hemoglobin, go to the alphafold server. Paste the sequence of the chains individually into the entity:
+
+<img width="1311" alt="Screenshot 2025-06-18 at 13 17 23" src="https://github.com/user-attachments/assets/619d9282-63d0-4f2f-8969-297f84212b91" />
+
 
 To run an AlphaFold simulation, you need to first connect to RCC's Midway3 through SSH. 
 
