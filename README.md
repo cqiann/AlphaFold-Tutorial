@@ -20,7 +20,7 @@ MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNA
 As you can see from the sequences, hemoglobin consists of four chains: two identical α chains (labeled A and C here) and two identical β chains (labeled B and D).
 
 ## Running AlphaFold Simulations on AlphaFold Server
-To predict the structure of hemoglobin, go to the [alphafold server](https://alphafoldserver.com/welcome). Paste the sequence of the chains individually into the entity. It should look like:
+To predict the structure of hemoglobin, go to the [AlphaFold server](https://alphafoldserver.com/welcome). Paste the sequence of the chains individually into the entity. It should look like:
 
 <img width="1311" alt="Screenshot 2025-06-18 at 13 17 23" src="https://github.com/user-attachments/assets/619d9282-63d0-4f2f-8969-297f84212b91" />
 
